@@ -1,19 +1,6 @@
 # Water(Fluid)-Level-Indicator-with-auto-on-off-
 It's Water level indicator which uses ultrasonic sensor and shows status on android app over the internet. It also can turn water motor on-off automatically and manually. 
 
-Components 
-Ultrasonic sensor
-NodeMCU
-Relay switch
-Cables 
-
-
-Step 1: Connect ultrasonic sensor and Relay switch with nodeMCU.
-Step 2: check the connection via simple data read from ultrasonic and simple on off oprations on Relay switch.
-Step 3: deploy main_node_code_final.ino file into NodeMCU using Arduno IDE, make changes according to your wifi network, so nodeMCU can connect to your wifi network.
-Step 4: install Android app on any android phone and give asked permission.
-
-System should be ready to work.
 
 
 Functionalities:
@@ -32,3 +19,17 @@ Manual mode:
   Dosnt's relay on sensor's data, user can turn it ON or OFF whenever he wants using the android app.
   
  Modes can be changed via Android app, and both the android phone and NodeMCU does not need to be in one network to run functions, both devices must have to have internet for changing the mode, once mode is changed, NodMCU can run offline completely. 
+ 
+ Components:
+Ultrasonic sensor
+NodeMCU
+Relay switch
+Cables 
+
+
+Step 1: Connect ultrasonic sensor and Relay switch with nodeMCU.
+Step 2: check the connection via simple data read from ultrasonic and simple on off oprations on Relay switch.
+Step 3: deploy main_node_code_final.ino file into NodeMCU using Arduno IDE, make changes according to your wifi network, so nodeMCU can connect to your wifi network.
+Step 4: install Android app on any android phone and give asked permission.
+
+System should be ready to work.
