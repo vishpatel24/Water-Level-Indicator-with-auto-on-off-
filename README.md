@@ -1,7 +1,7 @@
 # Water(Fluid)-Level-Indicator-with-auto-on-off-
 It's Water level indicator which uses ultrasonic sensor and shows status on android app over the internet. It also can turn water motor on-off automatically and manually. 
 
-
+Consider images in the repo for visual overview. 
 
 Functionalities:
 
